@@ -1,0 +1,6 @@
+<view class='container'>
+  <navigator url="{{item.url}}" class='options' wx:for="{{urlconfig}}" wx:key='item.title'>
+    <text class='title'>{{item.title}}</text>
+    <text class='abstract'>{{item.ab}}</text>
+  </navigator>
+</view>

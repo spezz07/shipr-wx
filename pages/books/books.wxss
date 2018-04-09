@@ -1,0 +1,105 @@
+/**index.wxss**/
+.index-container{
+  display: flex;
+  margin: 12px;
+  flex-wrap: wrap;
+}
+
+.act,.guide,.comics,.game-about {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-sizing: border-box;
+  margin: 12px 0;
+  width: 100%;
+}
+
+.act-title, .news>.title, .guide>.title, .comics>.title,.game-about>.title {
+  font-weight: bold;
+  font-size: 26px;
+  margin-bottom: 6px;
+}
+
+.act-text {
+  height: 40px;
+  font-size: 18px;
+  border-radius: 4px;
+  width: 95%;
+  color: #fff;
+  padding: 8px;
+  background-image: linear-gradient(to right, #fe7462, #fd9262);
+  line-height: 40px;
+  box-shadow: 0 1px 5px #f59489;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+}
+.news-container{
+  width: 90vw;
+  margin-top: 12px;
+}
+.news-content {
+  width: 100%;
+  border-radius: 4px;
+  height: 58px;
+  padding: 4px;
+  border: 1px solid #f0f0f0;
+  box-shadow: 0 1px 5px #ebebeb;
+  display: flex;
+  color: #757677;
+  font-size: 16px;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.news-content-img {
+  height: 50px;
+  width: 50px;
+  border-radius: 2px;
+  margin: 4px;
+}
+
+.news-content-title {
+  width: 90vw;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+}
+.container{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.container >.content {
+  display: inline-flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  width: 48%;
+  height: 100px;
+  border-radius: 4px;
+  margin-bottom: 8px;
+  position: relative;
+  box-shadow: 0 1px 4px #cfd1d3;
+  font-size: 40rpx;
+}
+
+.container> .content >.content-img {
+  width: 100%;
+  height: 100%;
+  border-radius: 4px;
+  opacity: 0.1;
+  }
+
+.content-text,.content-icon {
+  color: #fff;
+  position: absolute;
+  z-index: 88;
+}
+.content-icon{
+  width: 32px;
+  height: 32px;
+  margin-top: -36px;
+}

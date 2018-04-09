@@ -1,0 +1,21 @@
+<!--index.wxml-->
+<view class="index-container">
+  <view class='act'>
+    <text class='act-title'>活动信息</text>
+    <text class='act-text'>{{activityMes}}</text>
+  </view>
+  <view class='news'>
+    <text class='title'>限时活动攻略</text>
+    <view class='news-container'>
+      <navigator url="{{item.link}}" class='news-content'wx:for="{{activity}}" wx:key='*this' >
+        <text class='news-content-title'>{{item.title}}</text>
+      </navigator>
+    </view>
+  </view> 
+  <view class='news' >
+    <text class='title'>活动信息图</text>
+    <view id='imgcontainer'>
+    <image src='http://www.jianniang.com/h000/h35/3.7.0%E5%85%AC%E5%91%8A.jpg' mode='aspectFill' bindtap='prviewimg' data-srcurl='http://www.jianniang.com/h000/h35/3.7.0%E5%85%AC%E5%91%8A.jpg' lazy-load='true'></image>
+    </view>   
+    </view>
+</view>

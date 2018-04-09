@@ -1,0 +1,22 @@
+<import src="../../wxParse/wxParse.wxml" />
+
+<view class='title'>
+  <text class='title-text'>{{title}}</text>
+    <image></image>
+  <view class='time'>
+    <image src='../../../image/icon-createtime.png' class='icon'></image>
+    <text class='time-b'>{{time}}</text>
+  </view>
+  <view class='author'>
+    <image src='../../../image/icon-author.png' class='icon'></image>
+    <text class='author-b'>{{author}}</text>
+  </view>
+</view>
+<view class='article-img'>
+ <image src='http://mmbiz.qpic.cn/mmbiz_jpg/BhGBQ6IZqToxI6xlOF0icMR2KL0sJIfj9row5QF1XNDEVL0vhxCPQ3cgpY1MopjgicrkRdFQYdEG3qrQ13fzQ87g/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1' mode='aspectFit'></image>  
+</view>
+<view class='content'>
+这里是markdown文件解析
+  <!-- <template is="wxParse" data="{{wxParseData:article.nodes}}" /> -->
+
+</view>

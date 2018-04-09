@@ -1,0 +1,71 @@
+<!--index.wxml-->
+<view class="index-container">
+  <view class='guide'>
+    <text class='title'>攻略同人</text>
+    <view class='container'>
+      <navigator url="../guide/article-list?type=list&content=runtime" class='content' style='background-image: linear-gradient(to left, #fe7462, #fd9262);'>
+         <text class='content-text' selectable="true">游戏机制科普</text>
+        <image src='../../image/bg1.jpg' mode='aspectFill' class='content-img'></image>
+      </navigator>
+       <!-- <view class='content' style='background-image:linear-gradient(to left, #62d7fe, #1c82ca);'>
+        <text class='content-text' selectable = true>战利品防御战</text>
+        <image src='../../image/bg2.jpg' mode='aspectFill' class='content-img'></image>
+      </view> -->
+      <!-- <view class='content' style='background-image: linear-gradient(to left, #3be5d7, #3be5ab)'>
+        <text class='content-text'>微信群</text>
+        <image src='../../image/bg3.jpg' mode='aspectFill' class='content-img'></image>
+      </view> -->
+      <navigator url="../guide/article-list?type=list&content=guide" class='content' style='background-image: linear-gradient(to right, #6745f8, #f191ff)'>
+        <text class='content-text'>新人攻略</text>
+        <image src='../../image/bg5.jpg' mode='aspectFill' class='content-img'></image>
+      </navigator>
+    </view>
+  </view>
+  <!-- <view class='comics'>
+    <text class='title'>漫画CV</text>
+    <view class='container'>
+      <view class='content' style='background-image: linear-gradient(to right, #6745f8, #f191ff)'>
+        <text class='content-text'>漫画1</text>
+        <image src='../../image/bg5.jpg' mode='aspectFill' class='content-img'></image>
+      </view>
+         <view class='content' style='background-image: linear-gradient(to right, #f8b745, #fef49e)'>
+        <text class='content-text'>漫画2</text>
+        <image src='../../image/bg4.jpg' mode='aspectFill' class='content-img'></image>
+      </view>
+       <view class='content' style='background-image: linear-gradient(to left, #3be5d7, #3be5ab)'>
+        <text class='content-text'>你游CV表</text>
+        <image src='../../image/bg3.jpg' mode='aspectFill' class='content-img'></image>
+      </view>
+      <view class='content' style='background-image:linear-gradient(to left, #62d7fe, #1c82ca)'>
+        <text class='content-text'>日报暖心故事</text>
+        <image src='../../image/bg1.jpg' mode='aspectFill' class='content-img'></image>
+      </view>  
+    
+    </view>
+  </view> -->
+  <view class= 'game-about'>
+    <text class='title'>游戏相关</text>
+    <view class='container'>
+      <navigator class='content' style='background-image: linear-gradient(to left, #fe7462, #fd9262);' url="../guide/article-list/content?type=cl" >
+        <text class='content-text' selectable="true">官方及民间组织</text>
+        <image src='../../image/bg1.jpg' mode='aspectFill' class='content-img'></image>   
+      </navigator>
+       <view class='content' style='background-image:linear-gradient(to left, #62d7fe, #1c82ca);'>
+        <text class='content-text' selectable = true>打捞建造相关信息</text>
+        <image src='../../image/bg2.jpg' mode='aspectFill' class='content-img'></image>
+      </view>
+      <view class='content' style='background-image: linear-gradient(to left, #3be5d7, #3be5ab)'>
+        <text class='content-text'>壁纸、图片</text>
+        <image src='../../image/bg3.jpg' mode='aspectFill' class='content-img'></image>
+      </view>
+      <view class='content' style='background-image: linear-gradient(to right, #f8b745, #fef49e)'>
+        <text class='content-text'>游戏下载</text>
+        <image src='../../image/bg4.jpg' mode='aspectFill' class='content-img'></image>
+      </view>
+      <view class='content' style='background-image: linear-gradient(to right, #6745f8, #f191ff)'>
+        <text class='content-text'>反和谐</text>
+        <image src='../../image/bg5.jpg' mode='aspectFill' class='content-img'></image>
+      </view>
+    </view>
+  </view>
+</view>

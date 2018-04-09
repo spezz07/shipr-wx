@@ -1,0 +1,41 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/news/news",
+    "pages/books/books",
+    "pages/actvity/activty",
+    "pages/guide/article-list",
+    "pages/guide/article-list/content"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "战舰少女R相关推送",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "image/index_uns.png",
+        "selectedIconPath": "image/index.png"
+      },
+      {
+        "pagePath": "pages/books/books",
+        "text": "攻略",
+        "iconPath": "image/books_uns.png",
+        "selectedIconPath": "image/books.png"
+      },
+      {
+        "pagePath": "pages/news/news",
+        "text": "关于",
+        "iconPath": "image/news_uns.png",
+        "selectedIconPath": "image/news.png"
+      }
+    ],
+    "backgroundColor": "#fff",
+    "selectedColor": "#1296db",
+    "color": "#e1e1e1"
+  }
+}
